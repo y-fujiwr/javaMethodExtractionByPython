@@ -26,7 +26,6 @@ for _, node in tree.filter(javalang.tree.MethodDeclaration):
     positions.append(node.position)
 
 nest = 0
-output_text = ""
 output = open(args.outputFileName,"w")
 
 def getDictSize():
